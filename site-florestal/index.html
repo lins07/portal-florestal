@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal Florestal</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    :root {
+      --verde: #2e7d32;
+      --marrom: #5d4037;
+      --branco: #ffffff;
+    }
+
+    body {
+      background-color: var(--branco);
+      color: #333;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .navbar {
+      background-color: var(--verde);
+    }
+
+    .navbar-brand, .nav-link {
+      color: var(--branco) !important;
+      font-weight: 500;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1500&q=80') no-repeat center center;
+      background-size: cover;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    .section {
+      padding: 60px 20px;
+    }
+
+    h2 {
+      color: var(--verde);
+      margin-bottom: 20px;
+    }
+
+    h3 {
+        color: var(--verde);
+        margin-bottom: 20px;
+    }
+
+    footer {
+      background-color: var(--marrom);
+      color: var(--branco);
+      text-align: center;
+      padding: 20px 10px;
+    }
+
+    .card img {
+      height: 200px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">Portal Florestal</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#areas">Áreas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#curiosidades">Curiosidades</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="inicio" class="hero">
+    <h1>Engenharia Florestal: equilíbrio entre natureza e progresso</h1>
+    <p>Conheça a profissão que protege e transforma o meio ambiente.</p>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="section container">
+    <h2>O Que Um Engenheiro Florestal Aprende?</h2>
+    <p>
+      a manejar e conservar florestas de forma sustentável. A formação combina biologia, meio ambiente, gestão e técnicas de produção. Os principais conteúdos incluem:
+    </p>
+    <h3>Base científica</h3>
+    <p>Botânica, Ecologia, Zoologia, Solos (pedologia), Climatologia, Hidrologia</p>
+    <h3>Manejo e conservação</h3>
+    <p>Manejo florestal sustentável, Inventário florestal, Silvicultura (plantio, crescimento e colheita de florestas), Conservação da biodiversidade, Recuperação de áreas degradadas (restauração ecológica)</p>
+    <h3>Tecnologia e produção</h3>
+    <p>Tecnologia da madeira, Colheita e transporte florestal, Máquinas e equipamentos florestais, Geoprocessamento, SIG e sensoriamento remoto, Certificações ambientais (FSC, PEFC, etc.)</p>
+    <h3>Gestão</h3>
+    <p>Gestão ambiental, Economia e política florestal, Legislação ambiental, Projetos e planejamento florestal, Licenciamento ambiental</p>
+    <h3>Habilidades práticas</h3>
+    <p>Trabalho de campo (medição de árvores, coleta de amostras), Uso de GPS, drones e softwares de mapeamento, Análise de dados ambientais, Avaliação de impacto ambiental</p>
+  </section>
+
+  <!-- Áreas de Atuação -->
+  <section id="areas" class="section bg-light">
+    <div class="container">
+      <h2>Áreas de Atuação</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/istockphoto-1156208490-612x612.jpg" class="card-img-top" alt="Reflorestamento">
+            <div class="card-body">
+              <h5 class="card-title">Reflorestamento</h5>
+              <p class="card-text">Atuação em projetos de recuperação ambiental e manejo sustentável de florestas plantadas.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1498579150354-977475b7ea0b?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Consultoria Ambiental">
+            <div class="card-body">
+              <h5 class="card-title">Consultoria Ambiental</h5>
+              <p class="card-text">Elaboração de laudos, licenciamento e gestão de recursos naturais para empresas e órgãos públicos.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Pesquisa e Ensino">
+            <div class="card-body">
+              <h5 class="card-title">Pesquisa e Ensino</h5>
+              <p class="card-text">Atuação em universidades e centros de pesquisa voltados à conservação e manejo florestal.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Curiosidades -->
+  <section id="curiosidades" class="section container">
+    <h2>Curiosidades</h2>
+    <ul>
+      <li>O Brasil é um dos países com maior cobertura florestal do mundo.</li>
+      <li>Engenheiros florestais atuam na redução dos impactos das mudanças climáticas.</li>
+      <li>O curso de Engenharia Florestal dura em média 5 anos.</li>
+    </ul>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="section bg-light">
+    <div class="container">
+      <h2>Contato</h2>
+      <p>Quer saber mais? Entre em contato:</p>
+      <p><strong>Email:</strong> portalflorestal@gmail.com</p>
+      <p><strong>Instagram:</strong> @portalflorestal</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Portal Florestal. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
